@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import Web3 from "web3";
 import { Switch, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/App.css";
 import Navigation from "./components/Navbar";
 import Footer from "./components/Footer";

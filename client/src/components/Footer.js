@@ -6,13 +6,10 @@ const Footer = () => {
 
   return (
     <div className="footer">
-      <p>&copy;{year} Kevin Kuriakose</p>
+      <p>&copy;{year} Team GKV </p>
       <div className="links">
-        <a href="https://github.com/kevzpeter" rel="noreferrer" target="_blank">
+        <a href="https://github.com/tarun291/EduBlock.git" rel="noreferrer" target="_blank">
           <i className="fab fa-github-square"></i>
-        </a>
-        <a href="https://linkedin.com/in//kevinpeterk" rel="noreferrer" target="_blank">
-          <i className="fab fa-linkedin"></i>
         </a>
       </div>
     </div>
