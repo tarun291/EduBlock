@@ -18,9 +18,6 @@ export const Home = ({ address, contract, t_contract, ts_contract, error }) => {
             <p id="introduction">An Ethereum Blockchain based Education Platform</p>
             <p id="quote">"The more you learn the more you earn"</p>
           </div>
-          <div className="intro-img">
-            <img src={ethbg_png} alt="blockchain_animation"></img>
-          </div>
         </div>
         <div className="information">
           <p>

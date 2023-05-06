@@ -27,9 +27,7 @@
   padding: 1rem;
   font-weight: 500;
 }
-.intro-img {
-  position: relative;
-}
+
 .intro-text > h1 {
   opacity: 0;
   animation: slide 1.5s ease-in-out forwards;
@@ -46,13 +44,7 @@
   animation: slide 1.5s ease-in-out forwards;
   animation-delay: 1s;
 }
-.intro-img img {
-  border-radius: 10px;
-  max-width: 100%;
-  max-height: 100%;
-  right: 75px;
-  position: absolute;
-}
+
 .information {
   color: white;
   font-size: 1rem;
@@ -142,11 +134,7 @@
   .intro-text h1 {
     margin-left: -2rem;
   }
-  .intro-img img {
-    width: 15em;
-    position: static;
-    margin: 0;
-  }
+
   #introduction {
     font-size: 1.2rem;
   }
