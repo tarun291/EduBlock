@@ -1,4 +1,4 @@
-#Blockchain Based E-Learning Platform # EduBlocks
+##Blockchain Based E-Learning Platform ##EduBlocks
 
 ## Features
 
