@@ -1,4 +1,4 @@
-# EduBlock - Blockchain Based E-Learning Platform
+# EduBlocks - Blockchain Based E-Learning Platform
 
 ## Features
 
@@ -22,4 +22,4 @@
 - Ganache
 - Metamask
 
-# EduBlock
+# EduBlocks
