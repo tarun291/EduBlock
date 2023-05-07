@@ -1,5 +1,3 @@
-##Blockchain Based E-Learning Platform ##EduBlocks
-
 ## Features
 
 - Online market-place for students, educators, content-creators, developers etc. to publish and purchase courses
