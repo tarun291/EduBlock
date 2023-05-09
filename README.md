@@ -1,5 +1,3 @@
-# EduBlocks - Blockchain Based E-Learning Platform
-
 ## Features
 
 - Online market-place for students, educators, content-creators, developers etc. to publish and purchase courses
