@@ -6,6 +6,7 @@ import Introduction from "./Introduction";
 import "../styles/Home.css";
 
 export const Home = ({ address, contract, t_contract, ts_contract, error }) => {
+  console.log(t_contract)
   if (error) {
     return <Metamask_Error />;
   } else {
@@ -20,7 +21,7 @@ export const Home = ({ address, contract, t_contract, ts_contract, error }) => {
         </div>
         <div className="information">
           <p>
-            EDBX Token Address: {t_contract?._address}{" "}
+            EDBX Token Address: {t_contract?._address}
             <i
               className="far fa-copy"
               onClick={() => {

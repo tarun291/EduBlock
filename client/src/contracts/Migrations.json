@@ -53,7 +53,7 @@
   "sourceMap": "66:352:3:-;;;113:10;90:33;;;;;;;;;;;;;;;;;;;;66:352;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:352:3;;;;;;;",
   "deployedSourceMap": "66:352:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:352:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;90:33;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;313:103;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;313:103:3;;;;;;;;;;;;;;;;;:::i;:::-;;127:36;;;;:::o;90:33::-;;;;;;;;;;;;;:::o;313:103::-;225:5;;;;;;;;;;;211:19;;:10;:19;;;196:101;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;402:9;375:24;:36;;;;313:103;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "/Users/mithyalabs/Desktop/EduBlock/contracts/Migrations.sol",
+  "sourcePath": "/Users/mithyalabs/Desktop/EduBlocks/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -915,12 +915,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xb3c0271a632Fc43798EEB842c6f92B532CceDB71",
-      "transactionHash": "0xba9ea32ae4b56a152973b9398df8ac2067a842a02ee03e2cb6d991c1dad7c255"
+      "address": "0xCB1ac4608c1502A31d770668432D6e9249F1da2F",
+      "transactionHash": "0xb840057d1e37d9b1939371d88534e5ad22ce02504e741331414fca4d18e84784"
     }
   },
   "schemaVersion": "3.4.13",
-  "updatedAt": "2023-05-07T13:56:00.327Z",
+  "updatedAt": "2023-05-07T17:42:48.027Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

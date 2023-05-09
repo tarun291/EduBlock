@@ -25,9 +25,19 @@ function App() {
   const [err, setErr] = useState(false);
   const [acc, setAcc] = useState("");
 
+  const func = ()=>{
+      try{
+
+        loadWeb3();
+        LoadBlockchainData();
+      }
+      catch(e){
+        console.log(e);
+      }
+  }
+
   useEffect(() => {
-    loadWeb3();
-    LoadBlockchainData();
+    func();
   }, []);
 
   const loadWeb3 = async () => {
@@ -57,13 +67,13 @@ function App() {
           networkData1.address
         );
         setContract(Edublocks_Contract);
-        if (networkData2) {
+      if (networkData2) {
           const Token_Contract = new web3.eth.Contract(
             TokenABI.abi,
             networkData2.address
           );
           setT_contract(Token_Contract);
-          if (networkData3) {
+      if (networkData3) {
             const TokenSale_Contract = new web3.eth.Contract(
               TokenSaleABI.abi,
               networkData3.address
